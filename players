@@ -1,0 +1,64 @@
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("Player just earned 5 points")
+elif alien_color== 'yellow':
+    print("Player just earned 15 points")
+else:
+    print("Player just earned 10 points")
+
+fav_fruits = ['Banana', 'apple', 'dates']
+
+if 'Banana' in fav_fruits:
+    print("you really like bananas")
+if 'Apple'.lower() in fav_fruits:
+    print("You like apples")
+
+if 'watermelon' not in fav_fruits:
+    print("you don't like watermelon")
+
+users = ['Baseer', 'admin', 'Mateen', 'Tahseen']
+
+for user in users:
+    if user == 'admin':
+        print("Hello admin would like status report?")
+    else:
+        print(f"Hello {user} thanks for logging In")
+    
+del users[0]
+del users[0]
+del users[0]
+del users[0]
+print(users)
+
+if users:
+    for user in users:
+        print(user)
+else:
+    print("we need to add some users")
+
+current_users = ["Baseer", "Mateen", "Tahseen", "Isra", "Afsah"]
+
+new_users = ['Sabahat', 'Sobia', 'Safi', 'Asfiya', 'Ammi', 'BASeer']
+
+cu = [n.lower() for n in current_users]
+
+for nu in new_users:
+    if nu.lower() in cu:
+        print(f"Please select another username")
+    else:
+        print(f"username is available")
+
+print(cu)
+
+ord = [1,2,3,4,5,6,7,8,9]
+
+for o in ord:
+    if o == 1:
+        print(f"{o}st")
+    elif o ==2:
+        print(f"{o}nd")
+    elif o ==3:
+        print(f"{o}rd")
+    else:
+        print(f"{o}th")

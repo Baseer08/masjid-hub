@@ -1,0 +1,120 @@
+names = ["Sabahat", "Sobia", "Afsah", "Ruhma", "Umaizah", "Isra"]
+
+print(f"Assalaamualaikum "+ names[0])
+print(f"Assalaamualaikum "+ names[1])
+print(f"Assalaamualaikum "+ names[2])
+print(f"Assalaamualaikum "+ names[3])
+print(f"Assalaamualaikum "+ names[4])
+print(f"Assalaamualaikum "+ names[5])
+
+Transport = ["Airplane", "Rolls Royce", "Honda - CRV"]
+print(f"I would love to fly in an {Transport[0]}")
+print(f"I would love to roam in {Transport[1]} daily")
+print(f"I own a {Transport[2]}")
+message = "I would like to invite you for dinner"
+
+print(f"{names[0]} " + message)
+print(f"{names[1]} " + message)
+print(f"{names[2]} " + message)
+print(f"{names[3]} " + message)
+print(f"{names[4]} " + message)
+print(f"{names[5]} " + message)
+
+print(f"Just heard {names[5]} can't make it.")
+names[5] = "Baseer"
+
+print(f"{names[0]} " + message)
+print(f"{names[1]} " + message)
+print(f"{names[2]} " + message)
+print(f"{names[3]} " + message)
+print(f"{names[4]} " + message)
+print(f"{names[5]} " + message)
+
+print(f"Good news we found a bigger table")
+
+names.insert(0, "Asfiya")
+names.insert(3, "Isra") 
+names.append("Mateen")
+
+print(f"{names[0]} " + message)
+print(f"{names[1]} " + message)
+print(f"{names[2]} " + message)
+print(f"{names[3]} " + message)
+print(f"{names[4]} " + message)
+print(f"{names[5]} " + message)
+print(f"{names[6]} " + message)
+print(f"{names[7]} " + message)
+print(f"{names[8]} " + message)
+
+print(f"Bad news folks I can invite only 2 people")
+
+message0 = names.pop(5)
+message1 = names.pop(6)
+
+print(f"Sorry I can't invite you {message0}")
+print(f"Sorry I can't invite you {message1}")
+
+print(names)
+
+print(f"You are invited {names[0]}")
+print(f"You are invited {names[2]}")
+
+del names[0]
+del names[0]
+del names[0]
+del names[0]
+del names[0]
+del names[0]
+del names[0]
+print(names)
+
+places = ["Makkah", "Medina", "Al-Aqsa", "India", "Switzerland"]
+
+print(places)
+
+print(sorted(places))
+
+print(places)
+
+print(sorted(places, reverse=True))
+
+print(places)
+
+places.reverse()
+
+print(places)
+
+places.reverse()
+
+print(places)
+
+places.sort()
+
+print(places)
+
+places.sort(reverse=True)
+
+print(places)
+
+
+length = len(names)
+print(f"I am inviting {length} number of people")
+
+random = ["Grand", "Ocean", "Mountains", "green"]
+
+print(random)
+
+random.sort()
+print(random)
+
+random.reverse()
+print(random)
+
+print(sorted(random))
+
+random.sort(reverse=True)
+
+print(random)
+
+#print(random[5])
+
